@@ -3,15 +3,10 @@
     margin: 0;
     padding: 0;
 }
-body,
-.navbar-brand,
-.nav-link,
-.promo-title,
-.tokenomics h4,
-.tokenomics p 
-{
-    font-family: "Comic Sans MS", cursive, sans-serif !important;
+body {
+    font-family: 'Poppins', sans-serif;
 }
+
 
 #nav-bar {
     position: sticky;
@@ -258,17 +253,10 @@ button, .circle-button {
     color: #bbb;
     text-decoration: none;
 }
-/* footer */
-#footer
-{
-    background-image: linear linear-gradient(to right, #8b7962, #754505);
-    color: #fff;
-}
-.footer-img
-{
-    width: 100%;
-}
-.footer p
-{
+footer
+.footer p {
     color: black;
+    text-align: center;
+    margin: 0;  /* Reset margin to ensure proper centering */
 }
+
