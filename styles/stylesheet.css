@@ -3,11 +3,14 @@
     margin: 0;
     padding: 0;
 }
-body {
-    font-family: 'Poppins', sans-serif;
+body 
+{
     background-color: #ebe9e1; /* Set page background color */
-    color: #e43d12; 
+    color: #e43d12;
+    font-family: "ultra"!important;
+    font-weight: 600;
 }
+
 .text-e43d12 {
     color: #e43d12;
   }
@@ -34,6 +37,7 @@ body {
 
 .navbar-nav li a {
     color:#e43d12 !important;
+    font-family: 'ultra' !important;
     font-weight: 600;
     float: right;
     text-align: left;
@@ -80,12 +84,14 @@ fa-bars {
     text-align: center;
     margin: 0 auto; /* Center the title */
     font-size: 7em; /* Adjusted for mobile and computer */
+    font-family: 'ultra' !important;
     font-weight: 600;
     margin-top: 20px; /* Adjusted for mobile */
   }
   
   .banner-text {
     text-align: center; /* Center the banner text */
+    font-family: 'ultra' !important;    
     font-size: 30px; /* Adjusted for mobile and computer */
   }
   
@@ -119,6 +125,21 @@ button, .circle-button {
     align-items: center; /* Center vertically */
     margin-top: 20px; /* Add margin to separate from the text */
     margin-left: auto; /* Align to the right */
+}
+.buy-now-button {
+    display: block;
+    width: 400px;
+    height: 80px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto 20px; /* Centers the button and adds space below */
+    transition: all 0.3s; /* Smooth transition effect */
+
+    /* Hover effect */
+    &:hover {
+        transform: scale(0.9);
+    }
 }
 
 /* Adjust the button styles as needed */
@@ -157,11 +178,14 @@ button,
 {
     padding: 5px;
     margin-top: 25px;
+    font-family: 'ultra' !important;
     font-size: 2em;
 }
 .tokenomics p
 {
-    font-size: 2em;
+    font-family: 'ultra' !important;
+    font-weight: 200;
+    font-size: 1.5em;
 }
 /* roadmap */
 *
@@ -177,7 +201,8 @@ button,
 
 .roadmap-text 
 {
-    font-size: 1.8em; /* Adjust the size as needed */
+    font-family: 'ultra' !important;
+    font-size: 1em; /* Adjust the size as needed */
 }
 /* memes section */
 #memes {
